@@ -5,6 +5,7 @@
     <title>간식</title>
 
 <style media="screen">
+
   h2{
     color: #FFCD12;
   }
@@ -14,10 +15,48 @@
     text-decoration: none;
     font-size: 20px;
   }
-  .goyang{color: pink;}
+
   h1{
     text-align: center;
   }
+
+  h1{
+    border-bottom: 3px
+    solid #300000;
+    margin: 0px
+  }
+  ul{
+    border-right:3px solid #300000;
+    width:100px;
+    margin:0;
+    padding:20px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #grid ul{
+    padding-left: 33px;
+  }
+  #grid #tt{
+    padding-left: 33px;
+  }
+  @@media (mex-width:600px) {
+    .grid{
+      display: black;
+    }
+    .tt{
+      border:none;
+    }
+  }
+  body{
+    background-color: #FAF4C0;
+  }
+
+  td,th{
+
+  }
+
 </style>
 
 
@@ -26,11 +65,13 @@
 
 
   <h1><a href="index.html">내가 좋아하는 것들</a></h1>
+  <div id="grid">
     <ul>
       <li><a href="1.html" class="goyang">고양이</a></li>
       <li><a href="3.html">낮잠</a></li>
       <li><a href="2.html">간식</a></li>
     </ul>
+    <div id="tt">
 
 
 <h2>간식</h2>
@@ -45,6 +86,27 @@
 <img src="ffff.png" width="300" height="250">
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qwsDJVN8gqE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<table style="width:500px">
+  <tr>
+    <th>초콜릿</th>
+    <th>과자</th>
+    <th>아이스크림</th>
+  </tr>
+  <tr>
+    <td>밀크초콜릿</td>
+    <td>초코칩쿠키</td>
+    <td>민트초코</td>
+  </tr>
+  <tr>
+    <td>쿠앤크초콜릿</td>
+    <td>홈런볼</td>
+    <td>쿠앤크</td>
+  </tr>
+</table>
+
+</div>
+</div>
 
 
 

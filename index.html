@@ -7,18 +7,38 @@
 
 <style media="screen">
 
-    a
-    {
+    a{
       color: #476600;
       text-decoration: none;
       font-size: 20px;
-
     }
-    .goyang{color: pink;}
     h1{
       text-align: center;
+      font-size: 50px;
+      border-bottom: 3px #300000 solid;
+      margin-bottom: 0px;
     }
+    ul{
+      border-right:3px solid #300000;
+      width:100px;
+      margin:0;
+      padding:20px;
+    }
+    @@media (mex-width:600px) {
+      .grid{
+        display: black;
+      }
+      .tt{
+        border:none;
+      }
+    }
+    body{
+      background-color: #C4DEFF;
+    }
+
+
 </style>
+
 
 
   </head>
@@ -27,7 +47,7 @@
 
     <h1><a href="index.html">내가 좋아하는 것들</a></h1>
     <ul>
-      <li><a href="1.html" class="goyang">고양이</a></li>
+      <li><a href="1.html">고양이</a></li>
       <li><a href="3.html">낮잠</a></li>
       <li><a href="2.html">간식</a></li>
     </ul>

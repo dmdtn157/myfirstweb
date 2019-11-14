@@ -14,22 +14,62 @@
         text-decoration: none;
         font-size: 20px;
       }
-      .goyang{color: pink;}
+
       h1{
         text-align: center;
       }
+
+      h1{
+        border-bottom: 3px
+        solid #300000;
+        margin: 0px
+
+      }
+
+      ul{
+        border-right:3px solid #300000;
+        width:100px;
+        margin:0;
+        padding:20px;
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: 150px 1fr;
+      }
+
+      #grid ul{
+        padding-left: 33px;
+      }
+
+      #grid #tt{
+        padding-left: 33px;
+      }
+      @@media (mex-width:600px) {
+        .grid{
+          display: black;
+        }
+        .tt{
+          border:none;
+        }
+      }
+      body{
+        background-color: #E4F7BA;
+      }
+
     </style>
 
   </head>
   <body>
 
+
   <h1><a href="index.html">내가 좋아하는 것들</a></h1>
+  <div id="grid">
     <ul>
       <li><a href="1.html" class="goyang">고양이</a></li>
       <li><a href="3.html">낮잠</a></li>
       <li><a href="2.html">간식</a></li>
     </ul>
-
+    <div id="tt">
 
 <h2>낮잠</h2>
 <p>심장마비 발병률 감소</p>
@@ -40,7 +80,8 @@
 <p><font color="red">낮잠을 30분 이상 자게되면 깊은 잠에 빠져 우리 몸이 낮잠의 필요성을 인지하지 못하므로 낮잠의 효과가 사라짐</font></p>
 
 <img src="ggggg.jpg" width="300" height="250">
-
+</div>
+</div>
 
 
   </body>
