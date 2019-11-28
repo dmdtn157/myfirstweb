@@ -8,21 +8,31 @@
 <style media="screen">
 
     a{
-      color: #476600;
+        color: black;
       text-decoration: none;
       font-size: 20px;
     }
     h1{
       text-align: center;
       font-size: 50px;
-      border-bottom: 3px #300000 solid;
-      margin-bottom: 0px;
+      border-bottom: 3px solid #300000;
+      margin:0px;
     }
     ul{
       border-right:3px solid #300000;
       width:100px;
       margin:0;
       padding:20px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #grid ul{
+      padding-left: 33px;
+    }
+    #grid #tt{
+      padding-left: 33px;
     }
     @@media (mex-width:600px) {
       .grid{
@@ -33,7 +43,7 @@
       }
     }
     body{
-      background-color: #C4DEFF;
+      background-color: #F2F5A9;
     }
 
 
@@ -44,21 +54,19 @@
   </head>
   <body>
 
-
     <h1><a href="index.html">내가 좋아하는 것들</a></h1>
+    <div id="grid">
     <ul>
       <li><a href="1.html">고양이</a></li>
       <li><a href="3.html">낮잠</a></li>
       <li><a href="2.html">간식</a></li>
     </ul>
 
-  
+<div id="tt">
 
 
-
-
-<p>내가 좋아하는 것에 대해 알려주마</p>
-
+<p>12192110김은수</p>
+<img src="doemf.jpg" width="700" height="550">
 
 
   </body>
